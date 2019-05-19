@@ -1,6 +1,6 @@
 package Elements;
 
-public class POJO 
+public class POJOTest 
 {
   private int albumid;
   private int id;

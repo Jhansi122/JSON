@@ -9,14 +9,14 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
 
-public class LoadFromURL 
+public class LoadFromURLTest 
 {
 	@Test
 	public void testingTrail() {
 	JSONParser parser = new JSONParser();
 	try
 	{
-        Object object= parser.parse(new FileReader("C:\\Program Files\\Selenium\\Spring tool suite\\Code\\JSON\\src\\test\\java\\ReadJSON\\Test.json"));
+        Object object= parser.parse(new FileReader("C:\\Users\\JHANSI\\git\\JSON\\JSON\\src\\test\\java\\ReadJSON\\Test.json"));
         
         JSONObject jsonObject = (JSONObject) object;
         System.out.println(jsonObject);
